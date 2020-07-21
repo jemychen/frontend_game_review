@@ -1,0 +1,165 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rosybrown;
+    border: 10px solid whitesmoke;
+    padding-bottom: 20px;
+    margin: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+body {
+    color: white;
+    font-size: 14px;
+    transition: all 0.2s;
+    background-color: lightgrey;
+}
+
+ul {
+    /* list-style: none; */
+    list-style-type: square;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    font-style: italic;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    padding: 3px;
+    color: lightcoral;
+    background-color: whitesmoke;
+    cursor: pointer;
+  }
+
+  .delete {
+    float: right;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+}
+
+/* Styling the card  begins here */
+.game-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    border: 10px solid whitesmoke;
+    text-align: center;
+    background-color: rgb(85, 19, 19);
+    margin-bottom: 2rem;
+}
+
+.modal {
+    font-family: 'Trebuchet MS', sans-serif;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+.content {
+    background-color: rgb(75, 1, 1);
+    margin: 0 auto;
+    padding: 20px;
+    border: 15px solid;
+    border-color: white;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content .image {
+    float: right;
+    padding: 20px;
+    position: relative;
+}
+
+.content .game-info {
+    float: inline-start;
+    padding-right: 0px;
+}
+
+.content .title {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 400px;
+    border: 5px solid;
+    border-color: white;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.review-post {
+    max-width: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+}
+
+form {
+    box-sizing: border-box;
+}
+
+.form input[type=submit] {
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    width: auto;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form input, form textarea {
+    display: block;
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 600px;
+    padding: 0.25em 1em;
+    margin: 0.25em 0 0.5em;
+}
